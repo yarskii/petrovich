@@ -21,11 +21,11 @@ def test_price_filter(browser_management, min_price, max_price):
 
     with allure.step('Открываем страницу каталога'):
         start.open_main_page('https://petrovich.ru/catalog/778')
-        time.sleep(1)
+        time.sleep(2)
 
     with allure.step(f'Вводим минимальную цену ({min_price})'):
         price.set_min_price(min_price)
-        time.sleep(1)
+        time.sleep(2)
 
     with allure.step(f'Вводим максимальную цену ({max_price})'):
         price.set_max_price(max_price)
