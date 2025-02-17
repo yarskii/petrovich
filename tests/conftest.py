@@ -11,13 +11,18 @@ from appium import webdriver as appium
 from utils import attach
 
 load_dotenv()
-DEFAULT_BROWSER_VERSION = "126.0"
+DEFAULT_BROWSER_VERSION = '126.0'
+DEFAULT_MOBILE_ENV = 'browserstack'
 
 
 def pytest_addoption(parser):
     parser.addoption(
         '--browser_version',
         default=DEFAULT_BROWSER_VERSION)
+    parser.addoption(
+        '--env',
+        default=DEFAULT_MOBILE_ENV
+    )
 
 
 @pytest.fixture(scope='function')
@@ -68,7 +73,9 @@ def browser_management(request):
 @pytest.fixture(scope='function',
                 params=[('15.0', 'android', 'Google Pixel 9')],
                 ids=['base'])
-def mobile_management(request, env='browserstack'):
+def mobile_management(request):
+    env = request.config.getoption('env') or DEFAULT_MOBILE_ENV
+
     with allure.step('Инициализация сессии приложения'):
         if env == 'local':
             browser.config.driver = appium.Remote(
