@@ -1,5 +1,7 @@
+# Проект Web/Mobile тестирования сайта компании СТД Петрович
+
    <p align="center">
-      <img src="https://github.com/yarskii/petrovich/blob/main/resources/screenshots/logo_petrovich.jpeg" alt="Логотип компании Петрович" width="630" height="320"/>
+      <img src="https://github.com/yarskii/petrovich/blob/main/resources/screenshots/logo_petrovich.jpeg" alt="Логотип компании Петрович" width="730" height="250"/>
    </p>
 
 ---
@@ -18,12 +20,18 @@
 
 <p align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original-wordmark.svg" alt="Python Logo" height="40" width="40" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/selenium/selenium-original.svg" height="40" width="40" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/selenium/selenium-original.svg" alt="Selenium Logo" height="40" width="40" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/chrome/chrome-original-wordmark.svg" alt="Chrome Logo" height="40" width="40" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jenkins/jenkins-original.svg" alt="Jenkins Logo" height="40" width="40" />
   <img src="https://avatars.githubusercontent.com/u/5879127?s=200&v=4" alt="Allure Logo" height="40" width="40" />
   <img src="https://upload.wikimedia.org/wikipedia/commons/8/83/Telegram_2019_Logo.svg" alt="Telegram Logo" height="40" width="40" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pytest/pytest-original.svg" alt="Pytest Logo" height="40" width="40" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/appium/appium-original.svg" alt="Appium Logo" height="40" width="40" />
+  <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--hVnZQwHt--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://dev-to-uploads.s3.amazonaws.com/i/tf0sgq9w6y4z9p8j7m7k.png" alt="Browserstack Logo" height="40" width="40" />
+  <img src="https://www.jetbrains.com/pycharm/static/images/logo/pycharm-logo.svg" alt="PyCharm Logo" height="40" width="40" />
+  <img src="https://upload.wikimedia.org/wikipedia/commons/9/9d/Android_Studio_Icon_2019.svg" alt="Android Studio Logo" height="40" width="40" />
+  <img src="https://user-images.githubusercontent.com/43279385/136648278-6b9eacf3-22b4-49d6-a179-d49e95a5d9e2.png" alt="Allure TestOps Logo" height="40" width="40" />
+  <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Jira_Logo_Blue.svg" alt="Jira Logo" height="40" width="40" />
 </p>
 
 **Selene** - это обертка над Selenium, облегчающая написание тестов и взаимодействие с веб‑элементами.
@@ -33,6 +41,10 @@
 
 **Pytest** - это фреймворк для написания и запуска тестов. Он предоставляет удобный синтаксис и разнообразные
 возможности для тестирования.
+
+**Appium** - инструмент для автоматизации мобильных приложений, позволяет тестировать приложения на Android и iOS.
+
+**Browserstack** - облачный сервис для запуска тестов на реальных устройствах и браузерах.
 
 ---
 
@@ -146,7 +158,7 @@
 5. После сборки, результат работы можно увидеть в `Allure Report`
 
 > **Доступные параметры**:
-> - Варианты тестов: `tests`, `tests/api`, `tests/mobile`, `tests/ui`
+> - Варианты тестов: `tests`, `tests/api`, `tests/mobile`, `tests/ui`...
 > - Версия браузера: `99`, `100`, `113`, `114`, `120`, `121`, `122`, `123`, `124`, `125`, `126`
 ---
 </details>
@@ -202,10 +214,10 @@ sequenceDiagram
       <img src="https://github.com/yarskii/petrovich/blob/main/resources/screenshots/video_test_example.gif" alt="Видео-отчет о прохождении теста" width="630" height="320"/>
    </p>
 
-### Видео-отчет о прохождении мобильного теста 
+### Видео-отчет о прохождении мобильного теста
 
    <p align="center">
-      <img src="https://github.com/yarskii/petrovich/blob/main/resources/screenshots/with_login.gif" alt="Видео-отчет о прохождении теста" width="630" height="320"/>
+      <img src="https://github.com/yarskii/petrovich/blob/main/resources/screenshots/with_login.gif" alt="Видео-отчет о прохождении теста" width="630" height="630"/>
    </p>
 
 ### Отчет в Telegram
