@@ -19,19 +19,19 @@
 ## Используемые инструменты
 
 <p align="center">
-  <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python Logo" height="20" width="" />
-  <img src="https://img.shields.io/badge/selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white" alt="Selenium Logo" height="20" width="" />
-  <img src="https://img.shields.io/badge/Google_Chrome-4285F4?style=for-the-badge&logo=Google-Chrome&logoColor=white" alt="Chrome Logo" height="20" width="" />
-  <img src="https://img.shields.io/badge/jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white" alt="Jenkins Logo" height="20" width="" />
-  <img src="https://img.shields.io/badge/allure-F7C03F?style=for-the-badge&logo=allure&logoColor=black" alt="Allure Logo" height="20" width="" />
-  <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram Logo" height="20" width="" />
-  <img src="https://img.shields.io/badge/pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white" alt="Pytest Logo" height="20" width="" />
-  <img src="https://img.shields.io/badge/appium-1886DD?style=for-the-badge&logo=appium&logoColor=white" alt="Appium Logo" height="20" width="" />
-  <img src="https://img.shields.io/badge/browserstack-5879F7?style=for-the-badge&logo=browserstack&logoColor=white" alt="Browserstack Logo" height="20" width="" />
-  <img src="https://img.shields.io/badge/pycharm-143?style=for-the-badge&logo=pycharm&logoColor=black&color=black&labelColor=green" alt="PyCharm Logo" height="20" width="" />
-  <img src="https://img.shields.io/badge/android%20studio-3DDC84?style=for-the-badge&logo=android-studio&logoColor=white" alt="Android Studio Logo" height="20" width="" />
-  <img src="https://img.shields.io/badge/allure%20testops-F7C03F?style=for-the-badge&logo=allure&logoColor=black" alt="Allure TestOps Logo" height="20" width="" />
-  <img src="https://img.shields.io/badge/jira-0052CC?style=for-the-badge&logo=jira&logoColor=white" alt="Jira Logo" height="20" width="" />
+  <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python Logo" height="25" width="" />
+  <img src="https://img.shields.io/badge/selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white" alt="Selenium Logo" height="25" width="" />
+  <img src="https://img.shields.io/badge/Google_Chrome-4285F4?style=for-the-badge&logo=Google-Chrome&logoColor=white" alt="Chrome Logo" height="25" width="" />
+  <img src="https://img.shields.io/badge/jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white" alt="Jenkins Logo" height="25" width="" />
+  <img src="https://img.shields.io/badge/allure-F7C03F?style=for-the-badge&logo=allure&logoColor=black" alt="Allure Logo" height="25" width="" />
+  <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram Logo" height="25" width="" />
+  <img src="https://img.shields.io/badge/pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white" alt="Pytest Logo" height="25" width="" />
+  <img src="https://img.shields.io/badge/appium-1886DD?style=for-the-badge&logo=appium&logoColor=white" alt="Appium Logo" height="25" width="" />
+  <img src="https://img.shields.io/badge/browserstack-5879F7?style=for-the-badge&logo=browserstack&logoColor=white" alt="Browserstack Logo" height="25" width="" />
+  <img src="https://img.shields.io/badge/pycharm-143?style=for-the-badge&logo=pycharm&logoColor=black&color=black&labelColor=green" alt="PyCharm Logo" height="25" width="" />
+  <img src="https://img.shields.io/badge/android%20studio-3DDC84?style=for-the-badge&logo=android-studio&logoColor=white" alt="Android Studio Logo" height="25" width="" />
+  <img src="https://img.shields.io/badge/allure%20testops-F7C03F?style=for-the-badge&logo=allure&logoColor=black" alt="Allure TestOps Logo" height="25" width="" />
+  <img src="https://img.shields.io/badge/jira-0052CC?style=for-the-badge&logo=jira&logoColor=white" alt="Jira Logo" height="25" width="" />
 </p>
 
 **Selene** - это обертка над Selenium, облегчающая написание тестов и взаимодействие с веб‑элементами.
