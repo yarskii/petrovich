@@ -26,12 +26,12 @@
   <img src="https://avatars.githubusercontent.com/u/5879127?s=200&v=4" alt="Allure Logo" height="40" width="40" />
   <img src="https://upload.wikimedia.org/wikipedia/commons/8/83/Telegram_2019_Logo.svg" alt="Telegram Logo" height="40" width="40" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pytest/pytest-original.svg" alt="Pytest Logo" height="40" width="40" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/appium/appium-original.svg" alt="Appium Logo" height="40" width="40" />
-  <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--hVnZQwHt--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://dev-to-uploads.s3.amazonaws.com/i/tf0sgq9w6y4z9p8j7m7k.png" alt="Browserstack Logo" height="40" width="40" />
-  <img src="https://www.jetbrains.com/pycharm/static/images/logo/pycharm-logo.svg" alt="PyCharm Logo" height="40" width="40" />
-  <img src="https://upload.wikimedia.org/wikipedia/commons/9/9d/Android_Studio_Icon_2019.svg" alt="Android Studio Logo" height="40" width="40" />
-  <img src="https://user-images.githubusercontent.com/43279385/136648278-6b9eacf3-22b4-49d6-a179-d49e95a5d9e2.png" alt="Allure TestOps Logo" height="40" width="40" />
-  <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Jira_Logo_Blue.svg" alt="Jira Logo" height="40" width="40" />
+  <img src="https://img.shields.io/badge/appium-%231886DD.svg?style=for-the-badge&logo=appium&logoColor=white" alt="Appium Logo" height="40" width="40" />
+  <img src="https://img.shields.io/badge/browserstack-%235879F7.svg?style=for-the-badge&logo=browserstack&logoColor=white" alt="Browserstack Logo" height="40" width="40" />
+  <img src="https://img.shields.io/badge/pycharm-143?style=for-the-badge&logo=pycharm&logoColor=black&color=black&labelColor=green" alt="PyCharm Logo" height="40" width="40" />
+  <img src="https://img.shields.io/badge/android%20studio-3DDC84?style=for-the-badge&logo=android-studio&logoColor=white" alt="Android Studio Logo" height="40" width="40" />
+  <img src="https://img.shields.io/badge/allure%20testops-F7C03F?style=for-the-badge&logo=allure&logoColor=black" alt="Allure TestOps Logo" height="40" width="40" />
+  <img src="https://img.shields.io/badge/jira-%230052CC.svg?style=for-the-badge&logo=jira&logoColor=white" alt="Jira Logo" height="40" width="40" />
 </p>
 
 **Selene** - это обертка над Selenium, облегчающая написание тестов и взаимодействие с веб‑элементами.
