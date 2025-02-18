@@ -18,21 +18,52 @@
 
 ## Используемые инструменты
 
+[//]: # (<p align="center">)
+
+[//]: # (  <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python Logo" height="25" width="" />)
+
+[//]: # (  <img src="https://img.shields.io/badge/selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white" alt="Selenium Logo" height="25" width="" />)
+
+[//]: # (  <img src="https://img.shields.io/badge/Google_Chrome-4285F4?style=for-the-badge&logo=Google-Chrome&logoColor=white" alt="Chrome Logo" height="25" width="" />)
+
+[//]: # (  <img src="https://img.shields.io/badge/jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white" alt="Jenkins Logo" height="25" width="" />)
+
+[//]: # (  <img src="https://img.shields.io/badge/allure-F7C03F?style=for-the-badge&logo=allure&logoColor=black" alt="Allure Logo" height="25" width="" />)
+
+[//]: # (  <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram Logo" height="25" width="" />)
+
+[//]: # (  <img src="https://img.shields.io/badge/pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white" alt="Pytest Logo" height="25" width="" />)
+
+[//]: # (  <img src="https://img.shields.io/badge/appium-1886DD?style=for-the-badge&logo=appium&logoColor=white" alt="Appium Logo" height="25" width="" />)
+
+[//]: # (  <img src="https://img.shields.io/badge/browserstack-5879F7?style=for-the-badge&logo=browserstack&logoColor=white" alt="Browserstack Logo" height="25" width="" />)
+
+[//]: # (  <img src="https://img.shields.io/badge/pycharm-143?style=for-the-badge&logo=pycharm&logoColor=black&color=black&labelColor=green" alt="PyCharm Logo" height="25" width="" />)
+
+[//]: # (  <img src="https://img.shields.io/badge/android%20studio-3DDC84?style=for-the-badge&logo=android-studio&logoColor=white" alt="Android Studio Logo" height="25" width="" />)
+
+[//]: # (  <img src="https://img.shields.io/badge/allure%20testops-F7C03F?style=for-the-badge&logo=allure&logoColor=black" alt="Allure TestOps Logo" height="25" width="" />)
+
+[//]: # (  <img src="https://img.shields.io/badge/jira-0052CC?style=for-the-badge&logo=jira&logoColor=white" alt="Jira Logo" height="25" width="" />)
+
+[//]: # (</p>)
+
 <p align="center">
-  <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python Logo" height="25" width="" />
-  <img src="https://img.shields.io/badge/selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white" alt="Selenium Logo" height="25" width="" />
-  <img src="https://img.shields.io/badge/Google_Chrome-4285F4?style=for-the-badge&logo=Google-Chrome&logoColor=white" alt="Chrome Logo" height="25" width="" />
-  <img src="https://img.shields.io/badge/jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white" alt="Jenkins Logo" height="25" width="" />
-  <img src="https://img.shields.io/badge/allure-F7C03F?style=for-the-badge&logo=allure&logoColor=black" alt="Allure Logo" height="25" width="" />
-  <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram Logo" height="25" width="" />
-  <img src="https://img.shields.io/badge/pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white" alt="Pytest Logo" height="25" width="" />
-  <img src="https://img.shields.io/badge/appium-1886DD?style=for-the-badge&logo=appium&logoColor=white" alt="Appium Logo" height="25" width="" />
-  <img src="https://img.shields.io/badge/browserstack-5879F7?style=for-the-badge&logo=browserstack&logoColor=white" alt="Browserstack Logo" height="25" width="" />
-  <img src="https://img.shields.io/badge/pycharm-143?style=for-the-badge&logo=pycharm&logoColor=black&color=black&labelColor=green" alt="PyCharm Logo" height="25" width="" />
-  <img src="https://img.shields.io/badge/android%20studio-3DDC84?style=for-the-badge&logo=android-studio&logoColor=white" alt="Android Studio Logo" height="25" width="" />
-  <img src="https://img.shields.io/badge/allure%20testops-F7C03F?style=for-the-badge&logo=allure&logoColor=black" alt="Allure TestOps Logo" height="25" width="" />
-  <img src="https://img.shields.io/badge/jira-0052CC?style=for-the-badge&logo=jira&logoColor=white" alt="Jira Logo" height="25" width="" />
+  <img src="https://img.icons8.com/color/48/000000/python.png" alt="Python Logo" height="40" width="40" />
+  <img src="https://img.icons8.com/color/48/000000/selenium.png" alt="Selenium Logo" height="40" width="40" />
+  <img src="https://img.icons8.com/color/48/000000/google-chrome.png" alt="Chrome Logo" height="40" width="40" />
+  <img src="https://img.icons8.com/color/48/000000/jenkins.png" alt="Jenkins Logo" height="40" width="40" />
+  <img src="https://img.icons8.com/color/48/000000/allure.png" alt="Allure Logo" height="40" width="40" />
+  <img src="https://img.icons8.com/color/48/000000/telegram-app.png" alt="Telegram Logo" height="40" width="40" />
+  <img src="https://img.icons8.com/color/48/000000/pytest.png" alt="Pytest Logo" height="40" width="40" />
+  <img src="https://img.icons8.com/color/48/000000/appium.png" alt="Appium Logo" height="40" width="40" />
+  <img src="https://img.icons8.com/color/48/000000/browserstack.png" alt="BrowserStack Logo" height="40" width="40" />
+  <img src="https://img.icons8.com/color/48/000000/pycharm.png" alt="PyCharm Logo" height="40" width="40" />
+  <img src="https://img.icons8.com/color/48/000000/android-studio.png" alt="Android Studio Logo" height="40" width="40" />
+  <img src="https://img.icons8.com/color/48/000000/allure-testops.png" alt="Allure TestOps Logo" height="40" width="40" />
+  <img src="https://img.icons8.com/color/48/000000/jira.png" alt="Jira Logo" height="40" width="40" />
 </p>
+
 
 | Инструмент       | Описание                                                                                                                   |
 |------------------|----------------------------------------------------------------------------------------------------------------------------|
