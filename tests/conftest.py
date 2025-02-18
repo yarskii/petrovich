@@ -12,7 +12,7 @@ from utils import attach
 
 load_dotenv()
 DEFAULT_BROWSER_VERSION = '126.0'
-DEFAULT_MOBILE_ENV = 'browserstack'
+DEFAULT_MOBILE_ENVIRONMENT = 'browserstack'
 
 
 def pytest_addoption(parser):
@@ -21,7 +21,7 @@ def pytest_addoption(parser):
         default=DEFAULT_BROWSER_VERSION)
     parser.addoption(
         '--env',
-        default=DEFAULT_MOBILE_ENV
+        default=DEFAULT_MOBILE_ENVIRONMENT
     )
 
 
@@ -74,7 +74,7 @@ def browser_management(request):
                 params=[('15.0', 'android', 'Google Pixel 9')],
                 ids=['base'])
 def mobile_management(request):
-    env = request.config.getoption('env') or DEFAULT_MOBILE_ENV
+    env = request.config.getoption('env') or DEFAULT_MOBILE_ENVIRONMENT
 
     with allure.step('Инициализация сессии приложения'):
         if env == 'local':
