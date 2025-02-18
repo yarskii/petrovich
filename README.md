@@ -19,19 +19,19 @@
 ## Используемые инструменты
 
 <p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original-wordmark.svg" alt="Python Logo" height="40" width="40" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/selenium/selenium-original.svg" alt="Selenium Logo" height="40" width="40" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/chrome/chrome-original-wordmark.svg" alt="Chrome Logo" height="40" width="40" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jenkins/jenkins-original.svg" alt="Jenkins Logo" height="40" width="40" />
-  <img src="https://avatars.githubusercontent.com/u/5879127?s=200&v=4" alt="Allure Logo" height="40" width="40" />
-  <img src="https://upload.wikimedia.org/wikipedia/commons/8/83/Telegram_2019_Logo.svg" alt="Telegram Logo" height="40" width="40" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pytest/pytest-original.svg" alt="Pytest Logo" height="40" width="40" />
-  <img src="https://img.shields.io/badge/appium-%231886DD.svg?style=for-the-badge&logo=appium&logoColor=white" alt="Appium Logo" height="40" width="40" />
-  <img src="https://img.shields.io/badge/browserstack-%235879F7.svg?style=for-the-badge&logo=browserstack&logoColor=white" alt="Browserstack Logo" height="40" width="40" />
-  <img src="https://img.shields.io/badge/pycharm-143?style=for-the-badge&logo=pycharm&logoColor=black&color=black&labelColor=green" alt="PyCharm Logo" height="40" width="40" />
-  <img src="https://img.shields.io/badge/android%20studio-3DDC84?style=for-the-badge&logo=android-studio&logoColor=white" alt="Android Studio Logo" height="40" width="40" />
-  <img src="https://img.shields.io/badge/allure%20testops-F7C03F?style=for-the-badge&logo=allure&logoColor=black" alt="Allure TestOps Logo" height="40" width="40" />
-  <img src="https://img.shields.io/badge/jira-%230052CC.svg?style=for-the-badge&logo=jira&logoColor=white" alt="Jira Logo" height="40" width="40" />
+  <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python Logo" height="40" width="" />
+  <img src="https://img.shields.io/badge/selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white" alt="Selenium Logo" height="40" width="" />
+  <img src="https://img.shields.io/badge/Google_Chrome-4285F4?style=for-the-badge&logo=Google-Chrome&logoColor=white" alt="Chrome Logo" height="40" width="" />
+  <img src="https://img.shields.io/badge/jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white" alt="Jenkins Logo" height="40" width="" />
+  <img src="https://img.shields.io/badge/allure-F7C03F?style=for-the-badge&logo=allure&logoColor=black" alt="Allure Logo" height="40" width="" />
+  <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram Logo" height="40" width="" />
+  <img src="https://img.shields.io/badge/pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white" alt="Pytest Logo" height="40" width="" />
+  <img src="https://img.shields.io/badge/appium-1886DD?style=for-the-badge&logo=appium&logoColor=white" alt="Appium Logo" height="40" width="" />
+  <img src="https://img.shields.io/badge/browserstack-5879F7?style=for-the-badge&logo=browserstack&logoColor=white" alt="Browserstack Logo" height="40" width="" />
+  <img src="https://img.shields.io/badge/pycharm-143?style=for-the-badge&logo=pycharm&logoColor=black&color=black&labelColor=green" alt="PyCharm Logo" height="40" width="" />
+  <img src="https://img.shields.io/badge/android%20studio-3DDC84?style=for-the-badge&logo=android-studio&logoColor=white" alt="Android Studio Logo" height="40" width="" />
+  <img src="https://img.shields.io/badge/allure%20testops-F7C03F?style=for-the-badge&logo=allure&logoColor=black" alt="Allure TestOps Logo" height="40" width="" />
+  <img src="https://img.shields.io/badge/jira-0052CC?style=for-the-badge&logo=jira&logoColor=white" alt="Jira Logo" height="40" width="" />
 </p>
 
 **Selene** - это обертка над Selenium, облегчающая написание тестов и взаимодействие с веб‑элементами.
