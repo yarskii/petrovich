@@ -186,25 +186,25 @@ sequenceDiagram
 ### Cтраница тестов Jenkins
 
    <p align="center">
-      <img src="https://github.com/yarskii/petrovich/blob/main/resources/screenshots/jenkins_home.png" alt="Cтраница тестов Jenkins" width="830" height="450"/>
+      <img src="https://github.com/yarskii/petrovich/blob/main/resources/screenshots/jenkins_home.png" alt="Cтраница тестов Jenkins" width="830" height="420"/>
    </p>
 
 ### Общий отчёт Allure
 
    <p align="center">
-      <img src="https://github.com/yarskii/petrovich/blob/main/resources/screenshots/allure_results.png" alt="Общий отчёт Allure" width="630" height="320"/>
+      <img src="https://github.com/yarskii/petrovich/blob/main/resources/screenshots/allure_results.png" alt="Общий отчёт Allure" width="830" height="420"/>
    </p>
 
 ### Детальный отчёт о пройденном тесте
 
    <p align="center">
-      <img src="https://github.com/yarskii/petrovich/blob/main/resources/screenshots/allure_reports.png" alt="Детальный отчёт о пройденном тесте" width="630" height="320"/>
+      <img src="https://github.com/yarskii/petrovich/blob/main/resources/screenshots/allure_reports.png" alt="Детальный отчёт о пройденном тесте" width="830" height="420"/>
    </p>
 
 ### Видео-отчет о прохождении теста UI
 
    <p align="center">
-      <img src="https://github.com/yarskii/petrovich/blob/main/resources/screenshots/video_test_example.gif" alt="Видео-отчет о прохождении теста" width="630" height="320"/>
+      <img src="https://github.com/yarskii/petrovich/blob/main/resources/screenshots/video_test_example.gif" alt="Видео-отчет о прохождении теста" width="830" height="420"/>
    </p>
 
 ### Видео-отчет о прохождении мобильного теста
