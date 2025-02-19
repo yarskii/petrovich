@@ -250,9 +250,9 @@ sequenceDiagram
 ---
 
 ### Отчет в Telegram
-
-![Отчет в Telegram](https://github.com/yarskii/petrovich/blob/main/resources/screenshots/telegram_report.png)
-
+   <p align="center">
+      ![Отчет в Telegram](https://github.com/yarskii/petrovich/blob/main/resources/screenshots/telegram_report.png)
+   </p>
 Пример автоматического уведомления в Telegram о результате выполнения тестов. Это позволяет оперативно реагировать на любые проблемы.
 </details>
 
