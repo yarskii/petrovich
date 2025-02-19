@@ -269,7 +269,7 @@ sequenceDiagram
 #### Видео-отчет о прохождении мобильного теста
 
    <p align="center">
-      <img src="https://github.com/yarskii/petrovich/blob/main/resources/screenshots/with_login.gif" alt="Видео-отчет о прохождении мобильного теста" width="630" height="630"/>
+      <img src="https://github.com/yarskii/petrovich/blob/main/resources/screenshots/with_login.gif" alt="Видео-отчет о прохождении мобильного теста" width="530" height="530"/>
    </p>
 
 Видеозапись выполнения мобильных тестов, включая авторизацию и другие ключевые действия на мобильном устройстве.
