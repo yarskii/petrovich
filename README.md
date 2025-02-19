@@ -219,15 +219,19 @@ sequenceDiagram
     participant LocalEnv as Локальная Среда
     participant Jenkins as Jenkins
     participant Allure as Отчеты Allure
+    participant Telegram as Telegram
 
     Developer->>LocalEnv: Клонирование Репозитория
     LocalEnv->>Developer: Установка Зависимостей
-    Developer->>LocalEnv: Активация Виртуального Окружения
-    LocalEnv->>Jenkins: Пуш Кода
-    Jenkins->>Jenkins: Сборка с Параметрами
-    Jenkins->>Jenkins: Запуск Тестов
-    Jenkins->>Allure: Генерация Отчета
-    Allure-->>Developer: Просмотр Отчета
+    Developer->>LocalEnv: Создание и Активация Виртуального Окружения
+    Developer->>LocalEnv: Запуск Тестов Локально (опционально)
+    Developer->>Jenkins: Пуш Кода в Репозиторий
+    Jenkins->>Jenkins: Сборка Проекта с Параметрами
+    Jenkins->>Jenkins: Запуск Автоматизированных Тестов
+    Jenkins->>Allure: Генерация Отчетов Allure
+    Allure->>Jenkins: Сохранение Отчетов
+    Jenkins->>Telegram: Отправка Уведомления в Telegram
+    Developer->>Allure: Просмотр Отчетов через Allure TestOps или Jenkins
 ```
 
 </details>
