@@ -29,6 +29,7 @@
   <img src="https://img.icons8.com/color/48/000000/pycharm.png" alt="PyCharm Logo" height="40" width="40" />
   <img src="https://img.icons8.com/color/48/000000/android-studio.png" alt="Android Studio Logo" height="40" width="40" />
   <img src="https://img.icons8.com/color/48/000000/jira.png" alt="Jira Logo" height="40" width="40" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-plain.svg" alt="Postman Logo" height="40" width="40" />
 </p>
 
 | Инструмент       | Описание                                                                                                                   |
@@ -153,6 +154,7 @@
 > **Доступные параметры**:
 > - Варианты тестов: `tests`, `tests/api`, `tests/mobile`, `tests/ui`...
 > - Версия браузера: `99`, `100`, `113`, `114`, `120`, `121`, `122`, `123`, `124`, `125`, `126`
+
 ---
 </details>
 
@@ -211,6 +213,19 @@ sequenceDiagram
 
    <p align="center">
       <img src="https://github.com/yarskii/petrovich/blob/main/resources/screenshots/with_login.gif" alt="Видео-отчет о прохождении теста" width="630" height="630"/>
+   </p>
+
+### Интеграция с Allure TestOps
+
+   <p align="center">
+      <img src="https://github.com/yarskii/petrovich/blob/main/resources/screenshots/allure_testops_launcher.png" alt="Видео-отчет о прохождении теста" width="630" height="630"/>
+      <img src="https://github.com/yarskii/petrovich/blob/main/resources/screenshots/allure_testops_test_cases.png" alt="Видео-отчет о прохождении теста" width="630" height="630"/>
+   </p>
+
+### Интеграция с Jira
+
+   <p align="center">
+      <img src="https://github.com/yarskii/petrovich/blob/main/resources/screenshots/jira.png" alt="Видео-отчет о прохождении теста" width="630" height="630"/>
    </p>
 
 ### Отчет в Telegram
