@@ -192,13 +192,13 @@ sequenceDiagram
 ### Общий отчёт Allure
 
    <p align="center">
-      <img src="https://github.com/yarskii/petrovich/blob/main/resources/screenshots/allure_results.png" alt="Общий отчёт Allure" width="830" height="420"/>
+      <img src="https://github.com/yarskii/petrovich/blob/main/resources/screenshots/allure_reports.png" alt="Общий отчёт Allure" width="830" height="420"/>
    </p>
 
 ### Детальный отчёт о пройденном тесте
 
    <p align="center">
-      <img src="https://github.com/yarskii/petrovich/blob/main/resources/screenshots/allure_reports.png" alt="Детальный отчёт о пройденном тесте" width="830" height="420"/>
+      <img src="https://github.com/yarskii/petrovich/blob/main/resources/screenshots/allure_results.png" alt="Детальный отчёт о пройденном тесте" width="830" height="420"/>
    </p>
 
 ### Видео-отчет о прохождении теста UI
