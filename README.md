@@ -2,17 +2,15 @@
 
 [![Логотип Петрович](https://github.com/yarskii/petrovich/blob/main/resources/screenshots/logo_petrovich.jpeg)](https://petrovich.ru/)
 
-   <p align="center">
-      <img src="https://github.com/yarskii/petrovich/blob/main/resources/screenshots/logo_petrovich.jpeg" alt="Логотип компании Петрович" width="730" height="250"/>
-   </p>
-
 ---
 
 Этот проект содержит автоматизированные тесты для веб-сайта [Петрович](https://petrovich.ru/).
 
 ## Описание
 
-Проект включает набор автоматизированных тестов, написанных с использованием фреймворков Selene, Allure и Pytest. Тесты проверяют основные функциональные возможности сайта, такие как:
+Проект включает набор автоматизированных тестов, написанных с использованием фреймворков Selene, Allure и Pytest. Тесты
+проверяют основные функциональные возможности сайта, такие как:
+
 - Авторизация пользователей
 - Поиск товаров
 - Добавление товаров в корзину
@@ -38,13 +36,16 @@
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-plain.svg" alt="Postman Logo" height="40" width="40" />
 </p>
 
-| Инструмент       | Описание                                                                                                                   |
-|------------------|----------------------------------------------------------------------------------------------------------------------------|
-| **Selene**       | Обертка над Selenium, облегчающая написание тестов и взаимодействие с веб‑элементами.                                      |
-| **Allure**       | Инструмент для создания красочных отчетов о тестировании с поддержкой различных языков.                                    |
-| **Pytest**       | Фреймворк для написания и запуска тестов. Он предоставляет удобный синтаксис и разнообразные возможности для тестирования. |
-| **Appium**       | Инструмент для автоматизации мобильных приложений, позволяет тестировать приложения на Android и iOS.                      |
-| **Browserstack** | Облачный сервис для запуска тестов на реальных устройствах и браузерах.                                                    |
+| Инструмент         | Описание                                                                                                                   |
+|--------------------|----------------------------------------------------------------------------------------------------------------------------|
+| **Selene**         | Обертка над Selenium, облегчающая написание тестов и взаимодействие с веб‑элементами.                                      |
+| **Allure**         | Инструмент для создания красочных отчетов о тестировании с поддержкой различных языков.                                    |
+| **Allure TestOps** | Расширенная система управления тестированием, интегрируемая с CI/CD и Jira для мониторинга покрытия тестами и аналитики.   |
+| **Jira**           | Система управления задачами, используемая для отслеживания дефектов и планирования тестирования.                           |
+| **Pytest**         | Фреймворк для написания и запуска тестов. Он предоставляет удобный синтаксис и разнообразные возможности для тестирования. |
+| **Appium**         | Инструмент для автоматизации мобильных приложений, позволяет тестировать приложения на Android и iOS.                      |
+| **Browserstack**   | Облачный сервис для запуска тестов на реальных устройствах и браузерах.                                                    |
+| **Postman**        | Инструмент для тестирования API, позволяющий создавать коллекции запросов и проводить автоматизацию API-тестов.            |
 
 ---
 
@@ -165,7 +166,7 @@
 </details>
 
 <details>
-<summary>Диграмма</summary>
+<summary>Диаграмма</summary>
 
 ### Последовательность действий при запуске тестов
 
@@ -193,55 +194,66 @@ sequenceDiagram
 
 ### Cтраница тестов Jenkins
 
-   <p align="center">
-      <img src="https://github.com/yarskii/petrovich/blob/main/resources/screenshots/jenkins_home.png" alt="Cтраница тестов Jenkins" width="830" height="420"/>
-   </p>
+![Cтраница тестов Jenkins](https://github.com/yarskii/petrovich/blob/main/resources/screenshots/jenkins_home.png)
+
+Этот скриншот демонстрирует интерфейс Jenkins, где можно запускать тесты с различными параметрами и просматривать их статус.
+
+---
 
 ### Общий отчёт Allure
 
-   <p align="center">
-      <img src="https://github.com/yarskii/petrovich/blob/main/resources/screenshots/allure_reports.png" alt="Общий отчёт Allure" width="830" height="420"/>
-   </p>
+![Общий отчёт Allure](https://github.com/yarskii/petrovich/blob/main/resources/screenshots/allure_reports.png)
+
+Здесь представлен общий отчет Allure, который содержит сводную информацию о результатах выполнения тестов: количество пройденных, упавших и пропущенных тестов.
+
+---
 
 ### Детальный отчёт о пройденном тесте
 
-   <p align="center">
-      <img src="https://github.com/yarskii/petrovich/blob/main/resources/screenshots/allure_results.png" alt="Детальный отчёт о пройденном тесте" width="830" height="420"/>
-   </p>
+![Детальный отчёт о пройденном тесте](https://github.com/yarskii/petrovich/blob/main/resources/screenshots/allure_results.png)
+
+На этом скриншоте показан детальный отчет о конкретном тесте, включая шаги выполнения, логи и прикрепленные скриншоты.
+
+---
 
 ### Интеграция с Allure TestOps
 
-   <p align="center">
-   <img src="https://github.com/yarskii/petrovich/blob/main/resources/screenshots/allure_testops_launcher.png" alt="Видео-отчет о прохождении теста" width="830" height="420"/>
+![Интеграция с Allure TestOps](https://github.com/yarskii/petrovich/blob/main/resources/screenshots/allure_testops_launcher.png)
+![Интеграция с Allure TestOps](https://github.com/yarskii/petrovich/blob/main/resources/screenshots/allure_testops_test_cases.png)
 
---- 
+Эти изображения демонстрируют интеграцию проекта с Allure TestOps для управления тестами, анализа покрытия и мониторинга результатов.
 
-   <img src="https://github.com/yarskii/petrovich/blob/main/resources/screenshots/allure_testops_test_cases.png" alt="Видео-отчет о прохождении теста" width="830" height="420"/>
-   </p>
+---
 
 ### Интеграция с Jira
 
-   <p align="center">
-      <img src="https://github.com/yarskii/petrovich/blob/main/resources/screenshots/jira.png" alt="Видео-отчет о прохождении теста" width="830" height="420"/>
-   </p>
+![Интеграция с Jira](https://github.com/yarskii/petrovich/blob/main/resources/screenshots/jira.png)
+
+Скриншот показывает, как дефекты и задачи, выявленные в ходе тестирования, регистрируются и отслеживаются в системе Jira.
+
+---
 
 ### Видео-отчет о прохождении теста UI
 
-   <p align="center">
-      <img src="https://github.com/yarskii/petrovich/blob/main/resources/screenshots/video_test_example.gif" alt="Видео-отчет о прохождении теста" width="830" height="420"/>
-   </p>
+![Видео-отчет о прохождении теста UI](https://github.com/yarskii/petrovich/blob/main/resources/screenshots/video_test_example.gif)
+
+Демонстрация видео-отчета о выполнении UI-тестов. Это помогает наглядно увидеть процесс тестирования и возможные проблемы.
+
+---
 
 ### Видео-отчет о прохождении мобильного теста
 
-   <p align="center">
-      <img src="https://github.com/yarskii/petrovich/blob/main/resources/screenshots/with_login.gif" alt="Видео-отчет о прохождении теста" width="630" height="630"/>
-   </p>
+![Видео-отчет о прохождении мобильного теста](https://github.com/yarskii/petrovich/blob/main/resources/screenshots/with_login.gif)
+
+Видеозапись выполнения мобильных тестов, включая авторизацию и другие ключевые действия на мобильном устройстве.
+
+---
 
 ### Отчет в Telegram
 
-   <p align="center">
-      <img src="https://github.com/yarskii/petrovich/blob/main/resources/screenshots/telegram_report.png" alt="Отчет в Telegram"/>
-   </p>
+![Отчет в Telegram](https://github.com/yarskii/petrovich/blob/main/resources/screenshots/telegram_report.png)
+
+Пример автоматического уведомления в Telegram о результате выполнения тестов. Это позволяет оперативно реагировать на любые проблемы.
 </details>
 
 ---
