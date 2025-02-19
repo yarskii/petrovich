@@ -203,6 +203,22 @@ sequenceDiagram
       <img src="https://github.com/yarskii/petrovich/blob/main/resources/screenshots/allure_results.png" alt="Детальный отчёт о пройденном тесте" width="830" height="420"/>
    </p>
 
+### Интеграция с Allure TestOps
+
+   <p align="center">
+   <img src="https://github.com/yarskii/petrovich/blob/main/resources/screenshots/allure_testops_launcher.png" alt="Видео-отчет о прохождении теста" width="830" height="420"/>
+
+--- 
+
+   <img src="https://github.com/yarskii/petrovich/blob/main/resources/screenshots/allure_testops_test_cases.png" alt="Видео-отчет о прохождении теста" width="830" height="420"/>
+   </p>
+
+### Интеграция с Jira
+
+   <p align="center">
+      <img src="https://github.com/yarskii/petrovich/blob/main/resources/screenshots/jira.png" alt="Видео-отчет о прохождении теста" width="830" height="420"/>
+   </p>
+
 ### Видео-отчет о прохождении теста UI
 
    <p align="center">
@@ -213,22 +229,6 @@ sequenceDiagram
 
    <p align="center">
       <img src="https://github.com/yarskii/petrovich/blob/main/resources/screenshots/with_login.gif" alt="Видео-отчет о прохождении теста" width="630" height="630"/>
-   </p>
-
-### Интеграция с Allure TestOps
-
-   <p align="center">
-   <img src="https://github.com/yarskii/petrovich/blob/main/resources/screenshots/allure_testops_launcher.png" alt="Видео-отчет о прохождении теста" width="830" height="420"/>
-
---- 
-   
-   <img src="https://github.com/yarskii/petrovich/blob/main/resources/screenshots/allure_testops_test_cases.png" alt="Видео-отчет о прохождении теста" width="830" height="420"/>
-   </p>
-
-### Интеграция с Jira
-
-   <p align="center">
-      <img src="https://github.com/yarskii/petrovich/blob/main/resources/screenshots/jira.png" alt="Видео-отчет о прохождении теста" width="830" height="420"/>
    </p>
 
 ### Отчет в Telegram
