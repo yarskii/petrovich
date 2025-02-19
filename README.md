@@ -218,8 +218,11 @@ sequenceDiagram
 ### Интеграция с Allure TestOps
 
    <p align="center">
-      <img src="https://github.com/yarskii/petrovich/blob/main/resources/screenshots/allure_testops_launcher.png" alt="Видео-отчет о прохождении теста" width="830" height="420"/>
-      <img src="https://github.com/yarskii/petrovich/blob/main/resources/screenshots/allure_testops_test_cases.png" alt="Видео-отчет о прохождении теста" width="830" height="420"/>
+   <img src="https://github.com/yarskii/petrovich/blob/main/resources/screenshots/allure_testops_launcher.png" alt="Видео-отчет о прохождении теста" width="830" height="420"/>
+
+--- 
+   
+   <img src="https://github.com/yarskii/petrovich/blob/main/resources/screenshots/allure_testops_test_cases.png" alt="Видео-отчет о прохождении теста" width="830" height="420"/>
    </p>
 
 ### Интеграция с Jira
