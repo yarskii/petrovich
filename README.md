@@ -186,7 +186,7 @@ sequenceDiagram
 ### Cтраница тестов Jenkins
 
    <p align="center">
-      <img src="https://github.com/yarskii/petrovich/blob/main/resources/screenshots/jenkins_home.png" alt="Cтраница тестов Jenkins" width="830" height="480"/>
+      <img src="https://github.com/yarskii/petrovich/blob/main/resources/screenshots/jenkins_home.png" alt="Cтраница тестов Jenkins" width="830" height="450"/>
    </p>
 
 ### Общий отчёт Allure
