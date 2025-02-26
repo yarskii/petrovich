@@ -186,6 +186,15 @@
 - **Генерация детальных отчетов**: Allure TestOps предоставляет расширенные возможности для создания отчетов о
   тестировании, включая графики, диаграммы и статистику.
 
+#### Скриншоты
+
+![Интеграция с Allure TestOps](https://github.com/yarskii/petrovich/blob/main/resources/screenshots/allure_testops_launcher.png)
+---
+![Тест-кейсы в Allure TestOps](https://github.com/yarskii/petrovich/blob/main/resources/screenshots/allure_testops_test_cases.png)
+
+Эти изображения демонстрируют интеграцию проекта с Allure TestOps для управления тестами, анализа покрытия и мониторинга
+результатов.
+
 ---
 </details>
 
@@ -204,6 +213,12 @@
   статус тестирования конкретной функциональности.
 - **Отчетность**: Интеграция с Allure TestOps обеспечивает возможность генерации отчетов, которые включают ссылки на
   задачи Jira, связанные с тестами.
+
+#### Скриншоты
+
+![Интеграция с Jira](https://github.com/yarskii/petrovich/blob/main/resources/screenshots/jira.png)
+Скриншот показывает, как дефекты и задачи, выявленные в ходе тестирования, регистрируются и отслеживаются в системе
+Jira.
 
 ---
 </details>
@@ -236,24 +251,6 @@ sequenceDiagram
 
 </details>
 
-<details>
-<summary>Интеграции</summary>
-
-#### Интеграция с Allure TestOps
-
-![Интеграция с Allure TestOps](https://github.com/yarskii/petrovich/blob/main/resources/screenshots/allure_testops_launcher.png)
----
-![Тест-кейсы в Allure TestOps](https://github.com/yarskii/petrovich/blob/main/resources/screenshots/allure_testops_test_cases.png)
-
-Эти изображения демонстрируют интеграцию проекта с Allure TestOps для управления тестами, анализа покрытия и мониторинга
-результатов.
-
-#### Интеграция с Jira
-
-![Интеграция с Jira](https://github.com/yarskii/petrovich/blob/main/resources/screenshots/jira.png)
-Скриншот показывает, как дефекты и задачи, выявленные в ходе тестирования, регистрируются и отслеживаются в системе
-Jira.
-</details>
 
 <details>
 <summary>Видео прохождения тестов</summary>
