@@ -1,3 +1,5 @@
+import json
+
 from dotenv import load_dotenv
 import os
 
@@ -20,9 +22,10 @@ headers = {
 
 params = {'city_code': 'spb'}
 
-ABOUT_COMPANY_TEXT = (
-    'Строительный торговый дом «Петрович» — отечественная компания, '
-    'которая специализируется на продаже строительных и отделочных материалов, '
-    'а также комплектации крупных объектов жилой, коммерческой и социальной инфраструктуры. '
-    'Основана в 1995 году в Санкт-Петербурге.'
-)
+current_dir = os.path.dirname(os.path.abspath(__file__))
+texts_path = os.path.join(current_dir, 'texts.json')
+
+with open(texts_path, 'r', encoding='utf-8') as file:
+    texts = json.load(file)
+
+ABOUT_COMPANY_TEXT = "\n".join(texts['about_company_text'])
