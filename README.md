@@ -98,7 +98,7 @@
    ```sh
     pip install -r requirements.txt  # Устанавливаем зависимости из файла requirements.txt
    ```
-
+---
 </details>
 
 <details>
@@ -131,7 +131,7 @@
    ```sh
     pytest --alluredir=allure-results
    ```
-
+---
 </details>
 
 
@@ -150,7 +150,7 @@
    ```sh
     allure serve allure-results
    ```
-
+---
 </details>
 
 <details>
@@ -197,7 +197,6 @@
 
 ---
 </details>
-
 
 <details>
 <summary>Интеграция с Jira</summary>
@@ -248,7 +247,7 @@ sequenceDiagram
     Jenkins->>Telegram: Отправка Уведомления в Telegram
     Developer->>Allure: Просмотр Отчетов через Allure TestOps или Jenkins
 ```
-
+---
 </details>
 
 
@@ -269,6 +268,8 @@ sequenceDiagram
    </p>
 
 Видеозапись выполнения мобильных тестов, включая авторизацию и другие ключевые действия на мобильном устройстве.
+
+---
 </details>
 
 # Скриншоты
