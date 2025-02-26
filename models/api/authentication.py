@@ -25,12 +25,12 @@ class Authentication:
         response = self.send_request(f'{url_api}/user/v1.1/login')
         response_json = response.json()
 
-        assert response.status_code == 200, logging.info(response_json['state']['title'])
         logging.info(response_json['state']['title'])
+        assert response.status_code == 200
 
     def logout(self):
         response = self.send_request(f'{url_api}/user/v1.1/logout')
         response_json = response.json()
 
-        assert response.status_code == 200, logging.info(response_json['state']['title'])
         logging.info(response_json['state']['title'])
+        assert response.status_code == 200
