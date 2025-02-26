@@ -20,4 +20,5 @@ class Cart:
         response_json_cart = response_cart.json()
         logging.info(response_json_cart['state']['title'])
         logging.info(response_json_cart['data']['totals'])
+
         return response_json_cart['data']['totals']['items_count']
