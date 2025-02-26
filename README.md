@@ -237,6 +237,44 @@ sequenceDiagram
 </details>
 
 <details>
+<summary>Интеграции</summary>
+
+#### Интеграция с Allure TestOps
+
+![Интеграция с Allure TestOps](https://github.com/yarskii/petrovich/blob/main/resources/screenshots/allure_testops_launcher.png)
+---
+![Тест-кейсы в Allure TestOps](https://github.com/yarskii/petrovich/blob/main/resources/screenshots/allure_testops_test_cases.png)
+
+Эти изображения демонстрируют интеграцию проекта с Allure TestOps для управления тестами, анализа покрытия и мониторинга
+результатов.
+
+#### Интеграция с Jira
+
+![Интеграция с Jira](https://github.com/yarskii/petrovich/blob/main/resources/screenshots/jira.png)
+Скриншот показывает, как дефекты и задачи, выявленные в ходе тестирования, регистрируются и отслеживаются в системе
+Jira.
+</details>
+
+<details>
+<summary>Видео прохождения тестов</summary>
+
+#### Видео-отчет о прохождении теста UI
+
+![Видео-отчет о прохождении теста UI](https://github.com/yarskii/petrovich/blob/main/resources/screenshots/video_test_example.gif)
+
+Демонстрация видео-отчета о выполнении UI-тестов. Это помогает наглядно увидеть процесс тестирования и возможные
+проблемы.
+
+#### Видео-отчет о прохождении мобильного теста
+
+   <p align="center">
+      <img src="https://github.com/yarskii/petrovich/blob/main/resources/screenshots/with_login.gif" alt="Видео-отчет о прохождении мобильного теста" width="530" height="530"/>
+   </p>
+
+Видеозапись выполнения мобильных тестов, включая авторизацию и другие ключевые действия на мобильном устройстве.
+</details>
+
+<details>
 <summary>Скриншоты</summary>
 
 ### Отчеты
@@ -261,40 +299,6 @@ sequenceDiagram
 
 На этом скриншоте показан детальный отчет о конкретном тесте, включая шаги выполнения, логи и прикрепленные скриншоты.
 
-### Видео
-
-#### Видео-отчет о прохождении теста UI
-
-![Видео-отчет о прохождении теста UI](https://github.com/yarskii/petrovich/blob/main/resources/screenshots/video_test_example.gif)
-
-Демонстрация видео-отчета о выполнении UI-тестов. Это помогает наглядно увидеть процесс тестирования и возможные
-проблемы.
-
-#### Видео-отчет о прохождении мобильного теста
-
-   <p align="center">
-      <img src="https://github.com/yarskii/petrovich/blob/main/resources/screenshots/with_login.gif" alt="Видео-отчет о прохождении мобильного теста" width="530" height="530"/>
-   </p>
-
-Видеозапись выполнения мобильных тестов, включая авторизацию и другие ключевые действия на мобильном устройстве.
-
-### Интеграции
-
-#### Интеграция с Allure TestOps
-
-![Интеграция с Allure TestOps](https://github.com/yarskii/petrovich/blob/main/resources/screenshots/allure_testops_launcher.png)
----
-![Тест-кейсы в Allure TestOps](https://github.com/yarskii/petrovich/blob/main/resources/screenshots/allure_testops_test_cases.png)
-
-Эти изображения демонстрируют интеграцию проекта с Allure TestOps для управления тестами, анализа покрытия и мониторинга
-результатов.
-
-#### Интеграция с Jira
-
-![Интеграция с Jira](https://github.com/yarskii/petrovich/blob/main/resources/screenshots/jira.png)
-Скриншот показывает, как дефекты и задачи, выявленные в ходе тестирования, регистрируются и отслеживаются в системе
-Jira.
-
 ### Отчет в Telegram
 
    <p align="center">
@@ -304,6 +308,8 @@ Jira.
 Пример автоматического уведомления в Telegram о результате выполнения тестов. Это позволяет оперативно реагировать на
 любые проблемы.
 </details>
+
+
 
 ---
 
