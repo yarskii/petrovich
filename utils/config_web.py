@@ -8,6 +8,7 @@ load_dotenv()
 url_api = os.getenv('URL_API')
 user_name = os.getenv('EMAIL')
 user_password = os.getenv('PASSWORD')
+base_url = os.getenv('BASE_URL')
 
 json_data = {
     'password': user_password,

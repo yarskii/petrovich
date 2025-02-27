@@ -1,11 +1,9 @@
 import pytest
 import allure
 
+from models.navigation import Navigation
 from models.pages.Information_page import information_page
-from models.pages.base_page import BasePage
 from models.product_ui import ProductUI
-
-start = BasePage()
 
 
 @allure.tag('web')
@@ -19,7 +17,7 @@ start = BasePage()
                          ids=['Shurupovert', 'Otvertka'])
 def test_successful_product_search(browser_management, title):
     with allure.step('Открываем главную страницу магазина.'):
-        start.open_main_page()
+        Navigation.open()
 
     with allure.step('В поисковую строку вводим корректное название товара.'):
         ProductUI.search_product(title)
@@ -39,7 +37,7 @@ def test_successful_product_search(browser_management, title):
                          ids=['Sharapovert', 'Advertka'])
 def test_partial_match_product_search(browser_management, title):
     with allure.step('Открываем главную страницу магазина.'):
-        start.open_main_page()
+        Navigation.open()
 
     with allure.step('В поисковую строку вводим название товара с опечаткой.'):
         ProductUI.search_product(title)
@@ -58,7 +56,7 @@ def test_partial_match_product_search(browser_management, title):
 @pytest.mark.parametrize('title', ['sdjasdkjkjhaks'])
 def test_failed_product_search(browser_management, title):
     with allure.step('Открываем главную страницу магазина.'):
-        start.open_main_page()
+        Navigation.open()
 
     with allure.step('В поисковую строку вводим название товара с опечаткой.'):
         ProductUI.search_product(title)

@@ -5,12 +5,6 @@ logging.basicConfig(level=logging.INFO)
 
 
 class BasePage:
-    def open_main_page(self, url='/'):
-        if url == '/':
-            logging.info(f"Открываю главную страницу страницу")
-        else:
-            logging.info(f"Открываю страницу: {url}")
-        browser.open(url)
-
-    def search_section(self, text):
+    @staticmethod
+    def search_section(text):
         browser.all('.header-nav-sections').element_by(have.text(text)).click()

@@ -1,8 +1,8 @@
 import allure
 
+from models.navigation import Navigation
 from models.pages.login_page import LoginPage
 from models.pages.profile_page import ProfilePage
-from models.pages.base_page import BasePage
 
 
 @allure.tag('web')
@@ -12,11 +12,10 @@ from models.pages.base_page import BasePage
 @allure.label("owner", "Ярослав Гусев")
 @allure.link("https://petrovich.ru/", name="Вход пользователя")
 def test_successful_login(browser_management):
-    start = BasePage()
     login = LoginPage()
 
     with allure.step("Открытие главной страницы"):
-        start.open_main_page()
+        Navigation.open()
 
     with allure.step('Нажатие на кнопку "Войти"'):
         login.click_header_button()

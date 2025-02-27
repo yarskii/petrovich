@@ -18,8 +18,7 @@ def test_without_login(mobile_management):
     mobile = PetrovichMobileApp()
 
     with allure.step('Пропускаем начальные экраны'):
-        mobile.skipping_start_settings()
-        mobile.skipping_start_settings()
+        mobile.skip_initial_screens(2)
 
     with allure.step('Выбираем город'):
         mobile.choice_city('Санкт-Петербург')

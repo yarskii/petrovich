@@ -2,7 +2,7 @@ import time
 import allure
 import pytest
 
-from models.pages.base_page import BasePage
+from models.navigation import Navigation
 from models.filters import PriceFilter
 
 
@@ -16,15 +16,16 @@ from models.filters import PriceFilter
 @pytest.mark.parametrize("min_price, max_price",
                          [('200', '1000'), ('500', '1500'), ('1000', '2000')])
 def test_price_filter(browser_management, min_price, max_price):
-    start = BasePage()
     price = PriceFilter()
 
     with allure.step('Открываем страницу каталога'):
-        start.open_main_page('https://petrovich.ru/catalog/778')
+        Navigation.open_categories_page()
+        # Использование time.sleep для ожидания завершения анимации/загрузки.
         time.sleep(2)
 
     with allure.step(f'Вводим минимальную цену ({min_price})'):
         price.set_min_price(min_price)
+        # Использование time.sleep для ожидания завершения анимации/загрузки.
         time.sleep(2)
 
     with allure.step(f'Вводим максимальную цену ({max_price})'):

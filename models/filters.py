@@ -12,7 +12,8 @@ class PriceFilter:
         return value
 
     def set_min_price(self, min_price):
-        browser.element('input[name="min"]').should(be.visible).type(min_price)
+        price = browser.element('input[name="min"]').should(be.visible).type(min_price)
+        price.should(have.value(min_price))
 
     def set_max_price(self, max_price):
         browser.element('input[name="max"]').should(be.visible).type(max_price)

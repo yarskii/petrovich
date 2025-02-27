@@ -2,13 +2,18 @@ from appium.webdriver.common.appiumby import AppiumBy
 from selene import have, be
 from selene.support.shared import browser
 from allure import step
+import logging
+
+logging.basicConfig(level=logging.INFO)
 
 
 class PetrovichMobileApp:
-    def skipping_start_settings(self):
+    def skip_initial_screens(self, quantity):
         with step('Пропускаем экран'):
-            browser.element((AppiumBy.ID, 'ru.handh.petrovich:id/buttonAction')).should(
-                be.visible).click()
+            for i in range(quantity):
+                logging.info(f'Пропускаем экран {i + 1} из {quantity}')
+                browser.element((AppiumBy.ID, 'ru.handh.petrovich:id/buttonAction')).should(
+                    be.visible).click()
 
     def choice_city(self, city):
         with step('Отказываемся от определения местоположения'):

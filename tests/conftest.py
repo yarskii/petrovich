@@ -9,6 +9,7 @@ from utils import config_mobile
 from appium import webdriver as appium
 
 from utils import attach
+from utils.config_web import base_url
 
 load_dotenv()
 DEFAULT_BROWSER_VERSION = '126.0'
@@ -33,7 +34,6 @@ def pytest_addoption(parser):
 
 @pytest.fixture(scope='function')
 def browser_management(request):
-    base_url = os.getenv('BASE_URL')
     browser_version = request.config.getoption('browser_version') or DEFAULT_BROWSER_VERSION
     web_env = request.config.getoption('web_env') or DEFAULT_WEB_ENVIRONMENT
 
@@ -44,9 +44,6 @@ def browser_management(request):
         driver_options.add_argument('--headless')
         driver_options.add_argument('--disable-gpu')
         driver_options.add_argument('--no-sandbox')
-
-        # Закомментировано для запуска с открытием браузера
-        # driver_options.add_argument('--window-size=1280,724')
 
     else:
         options = Options()

@@ -1,7 +1,7 @@
 import allure
 
+from models.navigation import Navigation
 from models.pages.Information_page import information_page
-from models.pages.base_page import BasePage
 from models.footer import Footer
 
 
@@ -13,10 +13,8 @@ from models.footer import Footer
 @allure.description('Тест проверяет наличие корректного описания компании на странице "О компании".')
 @allure.link("https://petrovich.ru/about/", name="Страница 'О компании'")
 def test_about_company(browser_management):
-    start = BasePage()
-
     with allure.step('Открываем главную страницу магазина'):
-        start.open_main_page()
+        Navigation.open()
 
     with allure.step('Переходим на страницу "О компании"'):
         Footer.about_company()
