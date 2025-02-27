@@ -1,7 +1,7 @@
 import logging
 import requests
 
-from models.api.cookie_manager import CookieManager
+from api.models.cookie_manager import CookieManager
 from utils.config_web import headers, json_data, url_api
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')

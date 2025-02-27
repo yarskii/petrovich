@@ -1,10 +1,10 @@
 import pytest
 import allure
 
-from models.navigation import Navigation
-from models.pages.Information_page import information_page
-from models.pages.base_page import BasePage
-from models.pages.categories_page import CategoriesPage
+from web.components.navigation import Navigation
+from web.pages.Information_page import information_page
+from web.pages.base_page import BasePage
+from web.pages.categories_page import CategoriesPage
 
 
 @allure.tag('web')
