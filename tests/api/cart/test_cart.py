@@ -11,7 +11,7 @@ def test_cart(browser_management):
     cart = Cart()
 
     with allure.step("Открытие главной страницы"):
-        Navigation.open()
+        Navigation.open_home_page()
 
     with allure.step("Получение cookies из браузера"):
         CookieManager.get_browser_cookies()

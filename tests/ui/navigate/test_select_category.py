@@ -19,7 +19,7 @@ from models.pages.categories_page import CategoriesPage
                          ids=['Stroimateriali', 'Instrument'])
 def test_select_category(browser_management, section, title):
     with allure.step('Открываем главную страницу магазина'):
-        Navigation.open()
+        Navigation.open_home_page()
 
     with allure.step(f'Открываем "{section}"'):
         BasePage.search_section(section)

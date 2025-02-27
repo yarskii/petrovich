@@ -13,7 +13,7 @@ def test_successful_login_and_logout(browser_management):
     auth = Authentication()
 
     with allure.step("Открытие главной страницы"):
-        Navigation.open()
+        Navigation.open_home_page()
 
     with allure.step("Получение cookies из браузера"):
         CookieManager.get_browser_cookies()
@@ -22,7 +22,7 @@ def test_successful_login_and_logout(browser_management):
         auth.login()
 
     with allure.step('Переходим на вкладку профайла'):
-        Navigation.open()
+        Navigation.open_home_page()
         ProfilePage.choice_profile()
 
     with allure.step("Проверка личных данных пользователя в системе"):

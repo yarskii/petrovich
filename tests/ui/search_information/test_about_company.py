@@ -14,7 +14,7 @@ from models.footer import Footer
 @allure.link("https://petrovich.ru/about/", name="Страница 'О компании'")
 def test_about_company(browser_management):
     with allure.step('Открываем главную страницу магазина'):
-        Navigation.open()
+        Navigation.open_home_page()
 
     with allure.step('Переходим на страницу "О компании"'):
         Footer.about_company()

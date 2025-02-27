@@ -15,7 +15,7 @@ def test_successful_login(browser_management):
     login = LoginPage()
 
     with allure.step("Открытие главной страницы"):
-        Navigation.open()
+        Navigation.open_home_page()
 
     with allure.step('Нажатие на кнопку "Войти"'):
         login.click_header_button()

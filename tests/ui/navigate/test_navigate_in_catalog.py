@@ -19,7 +19,7 @@ from models.pages.catalog_page import CatalogPage
                          ids=['Tovari dlya doma', 'Electrica'])
 def test_navigate_in_catalog(browser_management, section, title):
     with allure.step('Открываем главную страницу магазина'):
-        Navigation.open()
+        Navigation.open_home_page()
 
     with allure.step('Открываем каталог товаров'):
         CatalogPage.open_catalog()
