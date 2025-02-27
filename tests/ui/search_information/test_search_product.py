@@ -1,13 +1,11 @@
 import pytest
 import allure
 
-from models.pages.Information_page import InformationPage
+from models.pages.Information_page import information_page
 from models.pages.base_page import BasePage
 from models.product_ui import ProductUI
 
 start = BasePage()
-product = ProductUI()
-information = InformationPage()
 
 
 @allure.tag('web')
@@ -24,10 +22,10 @@ def test_successful_product_search(browser_management, title):
         start.open_main_page()
 
     with allure.step('В поисковую строку вводим корректное название товара.'):
-        product.search_product(title)
+        ProductUI.search_product(title)
 
     with allure.step('Проверяем, что найдены товары, соответствующие запросу'):
-        information.verify_successful_search(title)
+        information_page.verify_successful_search(title)
 
 
 @allure.tag('web')
@@ -44,10 +42,10 @@ def test_partial_match_product_search(browser_management, title):
         start.open_main_page()
 
     with allure.step('В поисковую строку вводим название товара с опечаткой.'):
-        product.search_product(title)
+        ProductUI.search_product(title)
 
     with allure.step('Проверяем, что система предупреждает об отсутствии точных совпадений'):
-        information.verify_partial_match_search(title)
+        information_page.verify_partial_match_search(title)
 
 
 @allure.tag('web')
@@ -63,7 +61,7 @@ def test_failed_product_search(browser_management, title):
         start.open_main_page()
 
     with allure.step('В поисковую строку вводим название товара с опечаткой.'):
-        product.search_product(title)
+        ProductUI.search_product(title)
 
     with allure.step('Проверяем, что система сообщает об отсутствии подходящих товаров'):
-        information.verify_no_results_found()
+        information_page.verify_no_results_found()

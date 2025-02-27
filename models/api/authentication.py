@@ -8,15 +8,12 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 
 
 class Authentication:
-    def __init__(self):
-        self.cookie_manager = CookieManager()
-
     def send_request(self, url):
         response = requests.post(
             url,
             headers=headers,
             json=json_data,
-            cookies=self.cookie_manager.get_browser_cookies(),
+            cookies=CookieManager.get_browser_cookies(),
             allow_redirects=False
         )
         return response

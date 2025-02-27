@@ -5,10 +5,12 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 
 
 class ProfilePage:
-    def choise_profile(self):
+    @staticmethod
+    def choice_profile():
         browser.element('[href="/cabinet/profile/"]').should(be.visible).click()
 
-    def checking_profile_user(self):
+    @staticmethod
+    def checking_profile_user():
         try:
             browser.element('.profile').should(have.text('Личные данные'))
             logging.info('Информация с личными данными найдена.')

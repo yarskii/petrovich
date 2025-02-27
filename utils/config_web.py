@@ -28,4 +28,4 @@ texts_path = os.path.join(current_dir, 'texts.json')
 with open(texts_path, 'r', encoding='utf-8') as file:
     texts = json.load(file)
 
-ABOUT_COMPANY_TEXT = "\n".join(texts['about_company_text'])
+ABOUT_COMPANY_TEXT = ' '.join(texts['about_company_text'])

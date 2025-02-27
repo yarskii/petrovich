@@ -45,6 +45,9 @@ def browser_management(request):
         driver_options.add_argument('--disable-gpu')
         driver_options.add_argument('--no-sandbox')
 
+        # Закомментировано для запуска с открытием браузера
+        # driver_options.add_argument('--window-size=1280,724')
+
     else:
         options = Options()
         selenoid_capabilities = {

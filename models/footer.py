@@ -1,6 +1,8 @@
-from selene import browser
+from selene import browser, be
 
 
 class Footer:
-    def about_company(self):
-        browser.element('[href="/about/"]').click()
+    @staticmethod
+    def about_company():
+        button = browser.element('[href="/about/"]').should(be.visible)
+        button.should(be.clickable).click()

@@ -7,15 +7,12 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 
 
 class Cart:
-    def __init__(self):
-        self.cookie_manager = CookieManager()
-
     def checking_products_cart(self):
         cart_url = f'{url_api}/cart/v2/items'
         response_cart = requests.get(cart_url,
                                      params=params,
                                      headers=headers,
-                                     cookies=self.cookie_manager.get_browser_cookies(),
+                                     cookies=CookieManager.get_browser_cookies(),
                                      )
         response_json_cart = response_cart.json()
         logging.info(response_json_cart['state']['title'])

@@ -1,9 +1,16 @@
-from selene import browser, have, be
+from selene import browser, have, query
+import html
+
+from utils.config_web import ABOUT_COMPANY_TEXT
 
 
 class InformationPage:
-    def cheking_about_company_text(self, text):
-        browser.element('#article_container_208044859').should(be.visible).should(have.text(text))
+    def cheking_about_company_text(self):
+        actual_text = browser.element('#article_container_208044859').get(query.text)
+        text = html.unescape(actual_text)
+        text = ' '.join(text.split())
+
+        assert text == ABOUT_COMPANY_TEXT
 
     def verify_successful_search(self, text):
         browser.element('#jsx-pet-app').should(have.text(f'"{text}" найден'))
@@ -16,3 +23,6 @@ class InformationPage:
 
     def verify_information_on_page(self, text):
         browser.element('.categories-title').should(have.text(text))
+
+
+information_page = InformationPage()

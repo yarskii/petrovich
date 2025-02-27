@@ -8,7 +8,6 @@ from models.pages.base_page import BasePage
 
 def test_cart(browser_management):
     start = BasePage()
-    cookie_manager = CookieManager()
     products_api = ProductAPI()
     cart = Cart()
 
@@ -16,7 +15,7 @@ def test_cart(browser_management):
         start.open_main_page()
 
     with allure.step("Получение cookies из браузера"):
-        cookie_manager.get_browser_cookies()
+        CookieManager.get_browser_cookies()
 
     with allure.step("Выбираем секцию"):
         section = products_api.get_sections()

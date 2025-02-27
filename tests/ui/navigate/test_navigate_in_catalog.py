@@ -1,7 +1,7 @@
 import pytest
 import allure
 
-from models.pages.Information_page import InformationPage
+from models.pages.Information_page import information_page
 from models.pages.base_page import BasePage
 from models.pages.catalog_page import CatalogPage
 
@@ -19,20 +19,18 @@ from models.pages.catalog_page import CatalogPage
                          ids=['Tovari dlya doma', 'Electrica'])
 def test_navigate_in_catalog(browser_management, section, title):
     start = BasePage()
-    catalog = CatalogPage()
-    information = InformationPage()
 
     with allure.step('Открываем главную страницу магазина'):
         start.open_main_page()
 
     with allure.step('Открываем каталог товаров'):
-        catalog.open_catalog()
+        CatalogPage.open_catalog()
 
     with allure.step(f'Находим раздел "{section}" в каталоге'):
-        catalog.search_section(section)
+        CatalogPage.search_section(section)
 
     with allure.step(f'Выбираем категорию "{title}"'):
-        catalog.search_categories(title)
+        CatalogPage.search_categories(title)
 
     with allure.step(f'Проверяем, что открылась страница категории "{title}"'):
-        information.verify_information_on_page(title)
+        information_page.verify_information_on_page(title)

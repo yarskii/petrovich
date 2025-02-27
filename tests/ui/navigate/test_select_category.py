@@ -1,7 +1,7 @@
 import pytest
 import allure
 
-from models.pages.Information_page import InformationPage
+from models.pages.Information_page import information_page
 from models.pages.base_page import BasePage
 from models.pages.categories_page import CategoriesPage
 
@@ -18,8 +18,6 @@ from models.pages.categories_page import CategoriesPage
                          ids=['Stroimateriali', 'Instrument'])
 def test_select_category(browser_management, section, title):
     start = BasePage()
-    information = InformationPage()
-    categories = CategoriesPage()
 
     with allure.step('Открываем главную страницу магазина'):
         start.open_main_page()
@@ -28,7 +26,7 @@ def test_select_category(browser_management, section, title):
         start.search_section(section)
 
     with allure.step(f'Находим подраздел "{title}"'):
-        categories.search_categories(title)
+        CategoriesPage.search_categories(title)
 
     with allure.step(f'Проверяем, что открылась страница категории "{title}"'):
-        information.verify_information_on_page(title)
+        information_page.verify_information_on_page(title)

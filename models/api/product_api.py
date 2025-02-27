@@ -9,16 +9,13 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 
 
 class ProductAPI:
-    def __init__(self):
-        self.cookie_manager = CookieManager()
-
     def send_request(self, method, url, json_data=None):
         response = requests.request(
             method,
             url,
             headers=headers,
             params=params,
-            cookies=self.cookie_manager.get_browser_cookies(),
+            cookies=CookieManager.get_browser_cookies(),
             json=json_data,
         )
         return response

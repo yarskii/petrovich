@@ -13,7 +13,6 @@ from models.pages.base_page import BasePage
 @allure.link("https://petrovich.ru/", name="Вход пользователя")
 def test_successful_login(browser_management):
     start = BasePage()
-    profile = ProfilePage()
     login = LoginPage()
 
     with allure.step("Открытие главной страницы"):
@@ -32,7 +31,7 @@ def test_successful_login(browser_management):
         login.click_submit_button()
 
     with allure.step('Переход на вкладку профиля'):
-        profile.choise_profile()
+        ProfilePage.choice_profile()
 
     with allure.step('Проверка личных данных пользователя в системе'):
-        profile.checking_profile_user()
+        ProfilePage.checking_profile_user()
