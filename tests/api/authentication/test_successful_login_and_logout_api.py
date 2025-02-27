@@ -1,9 +1,9 @@
-from models.api.authentication import Authentication
-from models.api.cookie_manager import CookieManager
+from api.models.authentication import Authentication
+from api.models.cookie_manager import CookieManager
 import allure
 
-from models.navigation import Navigation
-from models.pages.profile_page import ProfilePage
+from web.components.navigation import Navigation
+from web.pages.profile_page import ProfilePage
 
 
 @allure.epic("Авторизация пользователя")

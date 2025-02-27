@@ -2,8 +2,8 @@ import time
 import allure
 import pytest
 
-from models.navigation import Navigation
-from models.filters import PriceFilter
+from web.components.navigation import Navigation
+from web.components.filters import PriceFilter
 
 
 @allure.tag('web')

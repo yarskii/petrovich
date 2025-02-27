@@ -1,5 +1,5 @@
 import allure
-from models.mobile.mobile_app import PetrovichMobileApp
+from mobile.screen.mobile_app import PetrovichMobileApp
 from utils.config_web import user_name, user_password
 
 

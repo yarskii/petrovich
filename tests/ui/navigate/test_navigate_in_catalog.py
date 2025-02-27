@@ -1,9 +1,9 @@
 import pytest
 import allure
 
-from models.navigation import Navigation
-from models.pages.Information_page import information_page
-from models.pages.catalog_page import CatalogPage
+from web.components.navigation import Navigation
+from web.pages.Information_page import information_page
+from web.pages.catalog_page import CatalogPage
 
 
 @allure.tag('web')

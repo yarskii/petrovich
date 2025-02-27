@@ -8,7 +8,7 @@ import os
 from utils import config_mobile
 from appium import webdriver as appium
 
-from utils import attach
+from common import attach
 from utils.config_web import base_url
 
 load_dotenv()

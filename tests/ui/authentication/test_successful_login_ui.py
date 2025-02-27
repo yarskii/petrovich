@@ -1,8 +1,8 @@
 import allure
 
-from models.navigation import Navigation
-from models.pages.login_page import LoginPage
-from models.pages.profile_page import ProfilePage
+from web.components.navigation import Navigation
+from web.pages.login_page import LoginPage
+from web.pages.profile_page import ProfilePage
 
 
 @allure.tag('web')
