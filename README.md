@@ -79,7 +79,7 @@
 
    ```sh
     git clone https://github.com/yarskii/petrovich.git # Клонируем репозиторий
-    cd cft_tests # Переходим в папку проекта
+    cd petrovich # Переходим в папку проекта
    ```
 
 ### Создание виртуального окружения (опционально)
